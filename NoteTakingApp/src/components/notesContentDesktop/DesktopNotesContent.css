@@ -1,0 +1,49 @@
+/* Note content box */
+.desktop__notes__content__note {
+    display: flex;
+    align-items: flex-start; /* Aligns items to the top */
+    background-color: white; /* Box background color */
+    color: black; /* Text color */
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem; /* Adds gap from the left side */
+    position: relative;
+    width: calc(100% - 4rem); /* Adjusts width to fit within container, considering left margin */
+    box-sizing: border-box; /* Includes padding and border in element’s total width and height */
+    background-color: white; /* Ensures the note box background is white */
+    margin-top: 1rem
+}
+
+/* Date and time section inside the note */
+.desktop__notes__content__date__time__details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+/* Date styling */
+.desktop__notes__content__date {
+    font-size: 0.9rem; /* Adjust font size to fit better */
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Time styling */
+.desktop__notes__content__time {
+    font-size: 0.9rem; /* Adjust font size to fit better */
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Note details styling */
+.desktop__notes__content__details {
+    width: 100%; /* Ensures the content section takes full width of the note box */
+    text-align: left;
+    margin-right: 3rem; /* Adds margin to make space for date/time box */
+    box-sizing: border-box; /* Includes padding and border in element’s total width and height */
+}
