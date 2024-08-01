@@ -1,12 +1,15 @@
 
 import './App.css'
+import MainPage from "../src/components/MainPage/MainPage";
 
 function App() {
  
 
   return (
    <>
-   <div>Start Of Project!! Ganpati Bappa Moriya </div>
+    <div className="App">
+      <MainPage />
+    </div>
    </>
   )
 }
